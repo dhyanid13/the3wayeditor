@@ -1,0 +1,39 @@
+
+
+<html>
+
+    <head>
+        
+        <title>jQuery</title>
+ 
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <script src="jquery-ui/jquery-ui.js"></script>
+        
+        <link href="jquery-ui/jquery-ui.css" rel="stylesheet">
+       
+        <style type="text/css">
+            #draggable { width: 150px; height: 150px; padding: 0.5em; }
+            
+        </style>
+        
+    </head>
+
+    <body>
+        <div id="draggable" class="ui-widget-content">
+  <p>Drag me around</p>
+</div>
+ 
+       
+        
+        <script type="text/javascript">
+            $( function() {
+    $( "#draggable" ).draggable();
+  } );
+            
+           
+        </script>
+        
+    </body>
+
+</html>
